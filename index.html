@@ -11,7 +11,51 @@
   <link rel="stylesheet" href="css/portfolio.css">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+    
   </style>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+     .container1 {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+     .form-group {
+      margin-bottom: 15px;
+    }
+     .form-group label {
+      display: block;
+      font-weight: bold;
+    }
+     .form-group input[type="text"],
+    .form-group textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      resize: vertical;
+    }
+     .form-group textarea {
+      height: 100px;
+    }
+     .form-group input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+     .form-group input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
@@ -70,18 +114,45 @@
           <img src="circle.png" alt="" class="img-fluid">
         </div>
       </div>
+      
     </div>
-    <div  style=" margin-left: 200px">
-      <h3>Contacts: </h3>
-        <li>
-          Email: akhilme341@gmail.com</li>
-         <li> Phone No.: +91-1234567898</li>
-
-    </div>
+    
     </section>
-  
+    <div class="container1">
+      <h2>Feedback Form</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+   
+    <div  id="foot" style=" margin-left: 1px; background-color: rgb(16, 55, 172); color: #000000f7;">
+      <h5>Reach me @: </h5>
+        <li>
+           Adresss:
+          L.C.Road,Sahibganj.<br/>
+             <li>State: Jharkhand</li>
+       <li>Postal Code: 816109</li>
+          </li>
+          <li>Email: akhilme341@gmail.com</li>
+          <li> Phone No.: +91-1234567898</li>
 
+    </div>
 </body>
+
 
 
 </html>
